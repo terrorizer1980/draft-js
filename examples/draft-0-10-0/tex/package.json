@@ -1,7 +1,9 @@
 {
   "private": true,
   "scripts": {
-    "start": "babel-node ./server.js"
+    "start": "babel-node ./server.js",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "dependencies": {
     "@babel/core": "^7.0.0",
@@ -15,10 +17,12 @@
     "react": "file:../../../node_modules/react",
     "react-dom": "file:../../../node_modules/react-dom",
     "webpack": "^4.44.0",
-    "webpack-dev-server": "^3.11.0"
+    "webpack-dev-server": "^4.0.0",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "@babel/cli": "^7.0.0",
     "@babel/node": "^7.0.0"
-  }
+  },
+  "snyk": true
 }
