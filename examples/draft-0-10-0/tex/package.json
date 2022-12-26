@@ -7,14 +7,14 @@
     "@babel/core": "^7.0.0",
     "@babel/preset-env": "^7.0.0",
     "@babel/preset-react": "^7.0.0",
-    "babel-loader": "^8.1.0",
+    "babel-loader": "^8.2.4",
     "draft-js": "file:../../../",
     "express": "^4.17.1",
     "immutable": "^3.7.4",
     "katex": "^0.7.0",
     "react": "file:../../../node_modules/react",
     "react-dom": "file:../../../node_modules/react-dom",
-    "webpack": "^4.44.0",
+    "webpack": "^5.0.0",
     "webpack-dev-server": "^3.11.0"
   },
   "devDependencies": {
