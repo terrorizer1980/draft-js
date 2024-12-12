@@ -9,13 +9,13 @@
     "@babel/preset-react": "^7.0.0",
     "babel-loader": "^8.1.0",
     "draft-js": "file:../../../",
-    "express": "^4.17.1",
+    "express": "^4.21.2",
     "immutable": "^3.7.4",
     "katex": "^0.7.0",
     "react": "file:../../../node_modules/react",
     "react-dom": "file:../../../node_modules/react-dom",
     "webpack": "^4.44.0",
-    "webpack-dev-server": "^3.11.0"
+    "webpack-dev-server": "^5.2.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.0.0",
